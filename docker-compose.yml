@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  dailyboost_bot:
+    build: .
+    container_name: dailyboost_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - bot_data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+
+volumes:
+  bot_data:
+    driver: local
