@@ -80,3 +80,4 @@ reff_linter.py
 scripts/
 .pre-commit-config.yaml
 docPRO/
+PROJECT_CONTEXT.md
