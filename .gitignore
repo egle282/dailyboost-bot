@@ -23,6 +23,7 @@ log.txt
 temp_audio/
 *.ogg
 *.mp3
+project_dump.txt
 
 # OS files
 .DS_Store
