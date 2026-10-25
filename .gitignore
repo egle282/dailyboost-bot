@@ -78,3 +78,4 @@ opencode.json
 reff_linter.py
 scripts/
 .pre-commit-config.yaml
+docPRO/
